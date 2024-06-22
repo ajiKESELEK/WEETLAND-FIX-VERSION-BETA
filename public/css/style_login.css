@@ -1,0 +1,58 @@
+body, nav {
+  background-image: url('/img/wetland.jpg');
+  background-size: 105%;
+}
+
+.box1 {
+  padding: 20px;
+  border-radius: 0 20px 20px 0;
+  /* backdrop-filter: blur(50px); */
+  /* background-color: rgb(255, 255, 255); */
+}
+
+.box1 > h2 {
+  font-weight: 800;
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+hr {
+  height: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.box2 {
+  /* backdrop-filter: blur(50px); */
+  padding: 20px;
+  border-radius: 20px 0 0 20px;
+  /* background-color: rgb(40, 104, 232); */
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+.margin-atas-50{
+  margin-top: 30px;
+}
+
+.box-login {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  /* filter:drop-shadow() */
+}
+
+.box-login > h2 {
+  font-weight: 800;
+}
+
+.bg-filter {
+  backdrop-filter: blur(25px);
+  background-color: rgba(0, 0, 0, 0.324);
+  border-radius: 20px;
+  /* border: 1px solid rgb(255, 255, 255); */
+}
